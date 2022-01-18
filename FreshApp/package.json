@@ -1,0 +1,43 @@
+{
+  "name": "stromnis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philos314/stromnis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/philos314/stromnis/issues"
+  },
+  "homepage": "https://github.com/philos314/stromnis#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1011.0",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "express-validator": "^6.12.2",
+    "generate-password": "^1.7.0",
+    "get-video-duration": "^4.0.0",
+    "json2xml": "^0.1.3",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^6.0.9",
+    "node-cron": "^3.0.0",
+    "nodemailer": "^6.6.5",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "nodemon": "^2.0.13",
+    "randomstring": "^1.2.1",
+    "request": "^2.76.0",
+    "xml2json": "^0.10.0"
+  }
+}

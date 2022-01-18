@@ -1,0 +1,17 @@
+const router= require("express").Router()
+router.use("/user",require("./userRoutes"))
+router.use("/admin",require("./adminRouter"))
+router.use("/sub",require("./subscriptionRouter"))
+router.use("/performer",require("./performerRouter"))
+router.use('/movies',require("./movieRouter"))
+router.use('/shows',require("./showRouter"))
+router.use('/series',require("./seriesRouter"))
+router.use('/health',require("./healthRouter"))
+router.use('/cms',require("./cmsRouter"))
+router.use('/payment',require("./paymentRouter"))
+router.use('/pallycon',require("./pallyconRouter"))
+router.use('/upload',require("./uploadImgOrVideoRouter"))
+router.use('/category',require("./categoryRouter"))
+router.use('/transaction',require("./transactionRouter"))
+
+module.exports=router

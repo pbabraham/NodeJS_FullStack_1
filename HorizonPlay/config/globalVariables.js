@@ -1,0 +1,3 @@
+global.SITE_NAME = "";
+
+

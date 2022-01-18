@@ -1,0 +1,55 @@
+{
+    "app_route": "http://localhost:9396/",
+    "google_analytics": "",
+    "PORT": "9396", 
+    "db": {
+        "database": "",
+		"username": "Root",
+		"password": "",
+        "options": {
+            "timezone": "+05:30",
+            "dialect": "mysql",
+            "dialectOptions": {
+                "decimalNumbers": true
+            },
+            "port": 3306,
+            "pool": {
+                "max": 50,
+                "min": 0,
+                "idle": 500
+            },
+            "replication": {
+                "write": {
+                    "username": "Root",
+                    "password": "",
+                    "host": "",
+                    "port": 3306
+                },
+                "read": [
+                    {
+                    "username": "Root",
+                    "password": "",
+                    "host": "",
+                        "port": 3306
+                    }
+                ]
+            }
+        }
+    },
+    "email":{
+        "MAIL_HOST"         : "",
+        "MAIL_PORT"         : 587,
+        "MAIL_USERNAME"     : "",
+        "MAIL_PASSWORD"     : "",
+        "FROM_EMAIL"        : ""
+    },
+    "twilio": {
+        "accountSid": "",
+        "apiKey": "",
+        "apiSecret": ""
+    },
+    "s3": {
+        "AWS_SECRET_ACCESS_KEY ":  "",
+        "AWS_ACCESS_KEY": ""
+    }
+}
